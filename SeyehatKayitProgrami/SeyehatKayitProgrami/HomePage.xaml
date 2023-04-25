@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:SeyehatKayitProgrami"
+             x:Class="SeyehatKayitProgrami.HomePage">
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Ekle" Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+            <local:HistoryPage Title="Hikaye"/>
+    <local:MapPage Title="Harita"/>
+    <local:ProfilPage Title="Profil"/>
+    
+</TabbedPage>

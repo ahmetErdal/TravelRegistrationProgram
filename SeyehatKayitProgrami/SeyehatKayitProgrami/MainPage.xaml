@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeyehatKayitProgrami.MainPage">
+
+    <StackLayout BackgroundColor="White" Margin="20" VerticalOptions="Center">
+        <Entry x:Name="eMailEntry" 
+               Placeholder="Email"
+               TextColor="{StaticResource greenColor}"
+               Keyboard="Email"/>
+        <Entry x:Name="passwordEntry"
+               Placeholder="Şifre"
+               TextColor="{StaticResource greenColor}"
+               IsPassword="True"/>
+        <Button x:Name="loginButton" 
+                Text="Giriş Yap"
+                BackgroundColor="{StaticResource greenColor}"
+                TextColor="White"
+                Clicked="loginButton_Clicked"
+                />
+    </StackLayout>
+
+</ContentPage>
